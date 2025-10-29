@@ -1,0 +1,39 @@
+mandatoryAccounts:
+  - name: Management
+    description: >-
+      The management (primary) account. Do not change the name field for this
+      mandatory account. Note, the account name key does not need to match the
+      AWS account name.
+    email: awsproject@zionclouds.com
+    organizationalUnit: Root
+    warm: false
+  - name: LogArchive
+    description: >-
+      The log archive account. Do not change the name field for this mandatory
+      account. Note, the account name key does not need to match the AWS account
+      name.
+    email: aws.log@zionclouds.com
+    organizationalUnit: Security
+    warm: false
+  - name: Audit
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: aws.security@zionclouds.com
+    organizationalUnit: Security
+    warm: false
+workloadAccounts:
+  - name: CCAP-DEV
+    email: aws.sandbox@zionclouds.com
+    organizationalUnit: IDEC
+    warm: true
+  - name: SELLER-SITE-DEV
+    email: aws.seller.site.dev@zionclouds.com
+    organizationalUnit: IDEC
+    warm: true
+  - name: CCAP-NETWORK
+    email: aws.networking@zionclouds.com
+    organizationalUnit: Network
+    warm: true
+

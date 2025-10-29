@@ -1,0 +1,9 @@
+enable: true
+organizationalUnits:
+  - name: Security
+  - name: IDEC
+  - name: Network
+serviceControlPolicies: []
+taggingPolicies: []
+chatbotPolicies: []
+backupPolicies: []
